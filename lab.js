@@ -45,7 +45,7 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
-// if (amysBirthYear == brittanisBirthYear) {
+// if (amysBirthYear === brittanisBirthYear) {
 // 	console.log(`Amy & Brittani were born in the same year`);
 // } else {
 // 	console.log(`Amy & Brittani were not born in the same year`);
@@ -141,18 +141,12 @@ let changeMyMind = true;
 // 	changeMyMind = true;
 // }
 
-// if (!changeMyMind) {
-// 	changeMyMind = true;
-// } else {
-// 	changeMyMind = false;
-// }
-// console.log(changeMyMind);
-
 // Try to change the value of changeMyMind
 //(irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
-
+// changeMyMind = !changeMyMind;
+// console.log(changeMyMind);
 ////////// PROBLEM 10 //////////
 
 // Do not edit the code below.
